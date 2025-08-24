@@ -1,6 +1,6 @@
 # 🚀 VibeCodeStack
 
-> The ultimate template for rapid, modern web development with best practices baked in.
+> The ultimate template for rapid, modern web development optimized for Claude Code with Swiss Army Knife dev tools.
 
 ## ✨ What's Inside
 
@@ -15,30 +15,53 @@
 ## 🚀 Quick Start
 
 ```bash
-# Use this template
-gh repo create my-project --template your-username/VibeCodeStack
+# 1. Install dev tools (one-time setup)
+brew install pnpm bat eza fd ripgrep fzf tree jq git-delta && npm install -g sharp-cli typescript vite
+
+# 2. Use this template
+gh repo create my-project --template rgbk/VibeCodeStack
 cd my-project
 
-# Install dependencies  
-npm install
+# 3. Install dependencies (using pnpm for speed)
+pnpm install
 
-# Start development
-npm run dev
+# 4. Start development
+pnpm dev
 ```
 
 ## 📝 Available Scripts
 
 ```bash
-npm run dev          # Start dev server
-npm run build        # Production build
-npm run preview      # Preview production build
-npm run lint         # Check code quality
-npm run lint:fix     # Fix linting issues
-npm run format       # Format code with Prettier
-npm run test         # Run tests
-npm run test:ui      # Run tests with UI
-npm run type-check   # TypeScript type checking
+pnpm dev             # Start dev server
+pnpm build           # Production build
+pnpm preview         # Preview production build
+pnpm lint            # Check code quality
+pnpm lint:fix        # Fix linting issues
+pnpm format          # Format code with Prettier
+pnpm test            # Run tests
+pnpm test:ui         # Run tests with UI
+pnpm type-check      # TypeScript type checking
 ```
+
+## 🛠️ Claude Code Optimized Dev Tools
+
+This template includes a complete Swiss Army Knife setup for maximum productivity:
+
+### Modern CLI Tools
+- **pnpm** - Faster package manager than npm
+- **bat** - Better `cat` with syntax highlighting
+- **eza** - Better `ls` with colors and icons  
+- **rg** (ripgrep) - Lightning fast search
+- **fzf** - Fuzzy finder for everything
+- **fd** - Better `find` command
+- **jq** - JSON processor
+- **tree** - Directory tree viewer
+- **git-delta** - Beautiful git diffs
+
+### Global Development Tools
+- **sharp-cli** - Image processing
+- **typescript** - Global TypeScript compiler
+- **vite** - Global Vite for quick prototyping
 
 ## 🏗️ Project Structure
 
