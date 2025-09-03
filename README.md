@@ -1,86 +1,60 @@
-# 🚀 VibeCodeStack
+# Future Corp Starter
 
-> The ultimate template for rapid, modern web development optimized for Claude Code with Swiss Army Knife dev tools.
+**Professional React + TypeScript starter template**
 
-## ✨ What's Inside
+## Overview
 
-- ⚡️ **Vite** - Lightning fast build tool
-- ⚛️ **React 18** + **TypeScript** - Modern React with full type safety  
-- 🎨 **Tailwind CSS** - Utility-first styling for rapid UI development
-- 📱 **PWA Ready** - Offline-first with service workers
-- 🧪 **Vitest** - Fast unit testing
-- 🔍 **ESLint + Prettier** - Code quality and formatting
-- 🛠️ **clsx + tailwind-merge** - Smart className utilities
+A modern, production-ready starter template featuring:
+- **React 18** with TypeScript
+- **Vite** for lightning-fast development
+- **Tailwind CSS** for utility-first styling
+- **ESLint + Prettier** for code quality
+- **Vitest** for testing
+- **GitHub Actions** for CI/CD
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
-# 1. Install dev tools (one-time setup)
-brew install pnpm bat eza fd ripgrep fzf tree jq git-delta && npm install -g sharp-cli typescript vite
-
-# 2. Use this template
-gh repo create my-project --template rgbk/VibeCodeStack
+# Clone the template
+git clone https://github.com/rgbk/VibeCodeStack.git my-project
 cd my-project
 
-# 3. Install dependencies (using pnpm for speed)
+# Install dependencies
 pnpm install
 
-# 4. Start development
+# Start development server
 pnpm dev
+
+# Build for production
+pnpm build
 ```
 
-## 📝 Available Scripts
+## Scripts
 
-```bash
-pnpm dev             # Start dev server
-pnpm build           # Production build
-pnpm preview         # Preview production build
-pnpm lint            # Check code quality
-pnpm lint:fix        # Fix linting issues
-pnpm format          # Format code with Prettier
-pnpm test            # Run tests
-pnpm test:ui         # Run tests with UI
-pnpm type-check      # TypeScript type checking
-```
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm test` - Run tests
+- `pnpm lint` - Lint code
+- `pnpm format` - Format code
 
-## 🛠️ Claude Code Optimized Dev Tools
+## Tech Stack
 
-This template includes a complete Swiss Army Knife setup for maximum productivity:
+- **Framework**: React 18 + TypeScript
+- **Build Tool**: Vite 5
+- **Styling**: Tailwind CSS
+- **Code Quality**: ESLint + Prettier
+- **Testing**: Vitest
+- **Package Manager**: pnpm
 
-### Modern CLI Tools
-- **pnpm** - Faster package manager than npm
-- **bat** - Better `cat` with syntax highlighting
-- **eza** - Better `ls` with colors and icons  
-- **rg** (ripgrep) - Lightning fast search
-- **fzf** - Fuzzy finder for everything
-- **fd** - Better `find` command
-- **jq** - JSON processor
-- **tree** - Directory tree viewer
-- **git-delta** - Beautiful git diffs
+## Features
 
-### Global Development Tools
-- **sharp-cli** - Image processing
-- **typescript** - Global TypeScript compiler
-- **vite** - Global Vite for quick prototyping
+- ⚡ Fast HMR with Vite
+- 📱 Responsive design ready
+- 🧪 Testing setup included
+- 🔧 Pre-configured dev tools
+- 📦 Optimized build output
+- 🚀 GitHub Actions workflow
 
-## 🏗️ Project Structure
+---
 
-```
-src/
-├── components/      # Reusable UI components
-├── hooks/          # Custom React hooks  
-├── lib/            # Utility functions
-├── pages/          # Page components
-└── styles/         # Global styles
-```
-
-## 🎯 Best Practices Included
-
-- **Type Safety** - Full TypeScript setup
-- **Code Quality** - ESLint with React-specific rules
-- **Formatting** - Prettier with Tailwind plugin
-- **Testing** - Vitest configured and ready
-- **PWA** - Service worker and manifest configured
-- **Performance** - Optimized build configuration
-
-Built with ❤️ for rapid development
+*Professional template for modern web development*
